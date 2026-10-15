@@ -1,0 +1,202 @@
+{
+    "project": "Employee Attrition Prediction & Visualization",
+    "course_code": "U21ADP05",
+    "student": "Suja S (24AD120)",
+    "institution": "KPR Institute of Engineering and Technology",
+    "dataset": {
+        "source": "IBM HR Analytics Attrition Dataset",
+        "raw_shape": [
+            1470,
+            35
+        ],
+        "refined_shape": [
+            1470,
+            32
+        ],
+        "feature_dimension": 44,
+        "class_counts": {
+            "No": 1233,
+            "Yes": 237
+        },
+        "attrition_rate": 16.122448979591837
+    },
+    "iqr_fences": [
+        {
+            "Feature": "MonthlyIncome",
+            "Q1 (25th)": 2911.0,
+            "Median": 4919.0,
+            "Q3 (75th)": 8379.0,
+            "IQR": 5468.0,
+            "Lower Fence": -5291.0,
+            "Upper Fence": 16581.0,
+            "Outlier Count": 114,
+            "Outlier %": "7.76%"
+        },
+        {
+            "Feature": "TotalWorkingYears",
+            "Q1 (25th)": 6.0,
+            "Median": 10.0,
+            "Q3 (75th)": 15.0,
+            "IQR": 9.0,
+            "Lower Fence": -7.5,
+            "Upper Fence": 28.5,
+            "Outlier Count": 63,
+            "Outlier %": "4.29%"
+        },
+        {
+            "Feature": "YearsAtCompany",
+            "Q1 (25th)": 3.0,
+            "Median": 5.0,
+            "Q3 (75th)": 9.0,
+            "IQR": 6.0,
+            "Lower Fence": -6.0,
+            "Upper Fence": 18.0,
+            "Outlier Count": 104,
+            "Outlier %": "7.07%"
+        },
+        {
+            "Feature": "Age",
+            "Q1 (25th)": 30.0,
+            "Median": 36.0,
+            "Q3 (75th)": 43.0,
+            "IQR": 13.0,
+            "Lower Fence": 10.5,
+            "Upper Fence": 62.5,
+            "Outlier Count": 0,
+            "Outlier %": "0.00%"
+        },
+        {
+            "Feature": "DistanceFromHome",
+            "Q1 (25th)": 2.0,
+            "Median": 7.0,
+            "Q3 (75th)": 14.0,
+            "IQR": 12.0,
+            "Lower Fence": -16.0,
+            "Upper Fence": 32.0,
+            "Outlier Count": 0,
+            "Outlier %": "0.00%"
+        }
+    ],
+    "tuning_experiments": [
+        {
+            "Config_ID": "Config A (Balanced/Optimal)",
+            "Hidden_Layers": "[64, 32, 16]",
+            "Learning_Rate": 0.001,
+            "L2_Penalty": 0.0001,
+            "Best_Epoch": 80,
+            "Val_Loss": 0.4854066073894501,
+            "Val_AUC": 0.7654054054054055,
+            "Val_Accuracy": 0.85
+        },
+        {
+            "Config_ID": "Config B (Deep/Over-parameterized)",
+            "Hidden_Layers": "[128, 64, 32]",
+            "Learning_Rate": 0.0005,
+            "L2_Penalty": 0.0005,
+            "Best_Epoch": 80,
+            "Val_Loss": 0.47773346304893494,
+            "Val_AUC": 0.7709652509652509,
+            "Val_Accuracy": 0.8090909090909091
+        },
+        {
+            "Config_ID": "Config C (Compact/Under-parameterized)",
+            "Hidden_Layers": "[32, 16, 8]",
+            "Learning_Rate": 0.002,
+            "L2_Penalty": 0.001,
+            "Best_Epoch": 80,
+            "Val_Loss": 0.45480668544769287,
+            "Val_AUC": 0.7504247104247105,
+            "Val_Accuracy": 0.8909090909090909
+        }
+    ],
+    "test_benchmark": [
+        {
+            "Model": "Deep Learning MLP",
+            "Accuracy": 0.8416289592760181,
+            "Precision": 0.5106382978723404,
+            "Recall (Sensitivity)": 0.6666666666666666,
+            "Specificity": 0.8756756756756757,
+            "F1-Score": 0.5783132530120482,
+            "ROC-AUC": 0.8283783783783784,
+            "TN": 162,
+            "FP": 23,
+            "FN": 12,
+            "TP": 24
+        },
+        {
+            "Model": "Logistic Regression Baseline",
+            "Accuracy": 0.8733031674208145,
+            "Precision": 0.6666666666666666,
+            "Recall (Sensitivity)": 0.4444444444444444,
+            "Specificity": 0.9567567567567568,
+            "F1-Score": 0.5333333333333333,
+            "ROC-AUC": 0.8406906906906906,
+            "TN": 177,
+            "FP": 8,
+            "FN": 20,
+            "TP": 16
+        }
+    ],
+    "top_10_permutation_features": [
+        {
+            "Rank": 1,
+            "Feature": "OverTime",
+            "Mean Drop in AUC": 0.06543543543543542,
+            "Std Dev": 0.00833212933974797
+        },
+        {
+            "Rank": 2,
+            "Feature": "JobInvolvement",
+            "Mean Drop in AUC": 0.0197897897897898,
+            "Std Dev": 0.009044674148623538
+        },
+        {
+            "Rank": 3,
+            "Feature": "YearsSinceLastPromotion",
+            "Mean Drop in AUC": 0.018678678678678673,
+            "Std Dev": 0.009633322844020416
+        },
+        {
+            "Rank": 4,
+            "Feature": "JobSatisfaction",
+            "Mean Drop in AUC": 0.017297297297297298,
+            "Std Dev": 0.009567946470048196
+        },
+        {
+            "Rank": 5,
+            "Feature": "YearsInCurrentRole",
+            "Mean Drop in AUC": 0.016216216216216207,
+            "Std Dev": 0.004191314431800109
+        },
+        {
+            "Rank": 6,
+            "Feature": "StockOptionLevel",
+            "Mean Drop in AUC": 0.013393393393393382,
+            "Std Dev": 0.011821461591587092
+        },
+        {
+            "Rank": 7,
+            "Feature": "DistanceFromHome",
+            "Mean Drop in AUC": 0.013273273273273278,
+            "Std Dev": 0.005767485979623737
+        },
+        {
+            "Rank": 8,
+            "Feature": "Department_Sales",
+            "Mean Drop in AUC": 0.012672672672672669,
+            "Std Dev": 0.0024701411078292723
+        },
+        {
+            "Rank": 9,
+            "Feature": "MonthlyIncome",
+            "Mean Drop in AUC": 0.011711711711711658,
+            "Std Dev": 0.004285991259023245
+        },
+        {
+            "Rank": 10,
+            "Feature": "HourlyRate",
+            "Mean Drop in AUC": 0.01156156156156154,
+            "Std Dev": 0.0048123064562186485
+        }
+    ]
+}
