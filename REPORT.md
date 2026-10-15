@@ -72,7 +72,11 @@ To mitigate these systemic liabilities, this investigation synthesizes rigorous 
 
 ## 3. DATASET SPECIFICATION & SCHEMA ARCHITECTURE
 
-The empirical data utilized is the real-world **IBM HR Analytics Employee Attrition Dataset**, publicly archived by the IBM Watson Analytics research group. The raw repository encompasses $N = 1,470$ employee records characterized across 35 dimensional attributes.
+The empirical data utilized is the canonical **IBM HR Analytics Employee Attrition Dataset**, created by IBM Watson Analytics data scientists and indexed globally on Kaggle:
+* **Official Kaggle Dataset URL**: [IBM HR Analytics Employee Attrition & Performance (Kaggle)](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+* **IBM Official Research Repository**: [IBM Employee Attrition AIF360 (GitHub)](https://github.com/IBM/employee-attrition-aif360)
+* **Direct Raw CSV Download**: `https://raw.githubusercontent.com/IBM/employee-attrition-aif360/master/data/emp_attrition.csv`
+The raw dataset encompasses $N = 1,470$ employee records characterized across 35 dimensional attributes.
 
 ### 3.1 Exhaustive 35-Field Schema Data Dictionary
 The table below provides a comprehensive taxonomy of all 35 features, categorizing data types, statistical measurement scales, domain interpretations, and observed numerical bounds.

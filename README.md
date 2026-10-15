@@ -22,7 +22,9 @@ Following **Ben Fry's 7 Stages of Data Visualization**, the project implements n
 
 ## 📦 Dataset Specification & Deliverable Links
 
-* 🌐 **Direct Official Dataset Download Link**: [IBM HR Analytics Attrition CSV (Raw URL)](https://raw.githubusercontent.com/IBM/employee-attrition-aif360/master/data/emp_attrition.csv)
+* 🏆 **Official Kaggle Dataset Link**: [IBM HR Analytics Employee Attrition & Performance (Kaggle)](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+* 🏢 **IBM Official Research Repository**: [IBM Employee Attrition AIF360 (GitHub)](https://github.com/IBM/employee-attrition-aif360)
+* 🌐 **Direct Raw Dataset Download**: [emp_attrition.csv (Raw URL)](https://raw.githubusercontent.com/IBM/employee-attrition-aif360/master/data/emp_attrition.csv)
 * 📑 **Official Academic Evaluation PDF Report**: [`U21ADP05_Employee_Attrition_Report.pdf`](./U21ADP05_Employee_Attrition_Report.pdf)
 * 📄 **Alternative Compiled PDF Report**: [`REPORT.pdf`](./REPORT.pdf)
 * 🌐 **Interactive HTML Academic Report**: [`REPORT.html`](./REPORT.html)
