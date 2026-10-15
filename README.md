@@ -20,6 +20,17 @@ Following **Ben Fry's 7 Stages of Data Visualization**, the project implements n
 
 ---
 
+## 📦 Dataset Specification & Deliverable Links
+
+* 🌐 **Direct Official Dataset Download Link**: [IBM HR Analytics Attrition CSV (Raw URL)](https://raw.githubusercontent.com/IBM/employee-attrition-aif360/master/data/emp_attrition.csv)
+* 📄 **Complete Academic PDF Report**: [`REPORT.pdf`](./REPORT.pdf)
+* 🌐 **Interactive HTML Academic Report**: [`REPORT.html`](./REPORT.html)
+* 💾 **Local Repository Dataset Copy**: [`emp_attrition.csv`](./emp_attrition.csv)
+* 🧠 **Trained PyTorch Model Checkpoint**: [`best_attrition_mlp.pt`](./best_attrition_mlp.pt)
+* 📊 **Reproducible Automated Pipeline**: [`attrition_pipeline.py`](./attrition_pipeline.py)
+
+---
+
 ## 📂 Repository Architecture
 
 ```text
