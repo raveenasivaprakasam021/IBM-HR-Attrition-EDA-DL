@@ -15,11 +15,11 @@
 
 ---
 
-### **Student Name**: Suja S
-### **Roll Number**: 24AD120
+### **Student Name**: Raveena S
+### **Roll Number**: 24AD087
 ### **Degree & Branch**: B.Tech. – Artificial Intelligence and Data Science
 ### **Faculty Evaluator**: Department Course Evaluation Committee
-### **GitHub Repository**: [https://github.com/SujaS-24AD120/IBM-HR-Attrition-EDA-DL](https://github.com/SujaS-24AD120/IBM-HR-Attrition-EDA-DL)
+### **GitHub Repository**: [https://github.com/raveenasivaprakasam021/IBM-HR-Attrition-EDA-DL](https://github.com/raveenasivaprakasam021/IBM-HR-Attrition-EDA-DL)
 ### **Date of Submission**: October 15, 2026
 
 ---
@@ -487,7 +487,7 @@ python attrition_pipeline.py
 ```
 
 The script manages data acquisition, hypothesis testing, figure export (Figures 1–10 at 300 DPI), neural architecture optimization, permutation importance, and benchmark metric serialization. All artifacts are version-controlled in the project repository:
-**GitHub Repository**: [https://github.com/SujaS-24AD120/IBM-HR-Attrition-EDA-DL](https://github.com/SujaS-24AD120/IBM-HR-Attrition-EDA-DL)
+**GitHub Repository**: [https://github.com/raveenasivaprakasam021/IBM-HR-Attrition-EDA-DL](https://github.com/raveenasivaprakasam021/IBM-HR-Attrition-EDA-DL)
 
 ---
 *End of Formal Academic Project Report — Course Code: U21ADP05 (Assignment II)*

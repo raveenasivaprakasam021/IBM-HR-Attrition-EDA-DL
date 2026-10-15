@@ -8,7 +8,7 @@
 
 > **Course**: U21ADP05 – Exploratory Data Analysis and Visualization (Assignment II, 40 Marks)  
 > **Institution**: Department of Artificial Intelligence and Data Science, KPR Institute of Engineering and Technology  
-> **Candidate**: Suja S (`Roll No: 24AD120`) | **Batch**: 2023–2027 | **Year/Sem**: III Year / V Semester  
+> **Candidate**: Raveena S (`Roll No: 24AD087`) | **Batch**: 2023–2027 | **Year/Sem**: III Year / V Semester  
 
 ---
 
@@ -76,7 +76,7 @@ Evaluated on the strictly holdout out-of-sample test partition ($N = 221$, strat
 
 ### 1. Clone & Navigate
 ```bash
-git clone https://github.com/SujaS-24AD120/IBM-HR-Attrition-EDA-DL.git
+git clone https://github.com/raveenasivaprakasam021/IBM-HR-Attrition-EDA-DL.git
 cd IBM-HR-Attrition-EDA-DL
 ```
 
@@ -126,4 +126,4 @@ This single script will:
 ---
 
 ## 📜 Academic Integrity & Attribution
-This project was authored independently by **Suja S** (`Roll No: 24AD120`) for the course **U21ADP05 – Exploratory Data Analysis and Visualization**, Department of Artificial Intelligence and Data Science, KPR Institute of Engineering and Technology. All code, statistical formulations, and visual representations are original and reproducible.
+This project was authored independently by **Raveena S** (`Roll No: 24AD087`) for the course **U21ADP05 – Exploratory Data Analysis and Visualization**, Department of Artificial Intelligence and Data Science, KPR Institute of Engineering and Technology. All code, statistical formulations, and visual representations are original and reproducible.

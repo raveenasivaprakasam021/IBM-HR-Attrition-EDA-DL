@@ -3,7 +3,7 @@
 ACADEMIC CASE STUDY PROJECT: EMPLOYEE ATTRITION PREDICTION & EXPLANATORY MODELING
 Course Code: U21ADP05 - Exploratory Data Analysis and Visualization (Assignment II)
 Department of Artificial Intelligence and Data Science, KPR Institute of Engineering and Technology
-Author: Suja S (Roll No: 24AD120) | Batch: 2023-2027 | Year/Sem: V
+Author: Raveena S (Roll No: 24AD087) | Batch: 2023-2027 | Year/Sem: V
 ====================================================================================================
 This standalone, reproducible pipeline performs:
   1. Data Acquisition & Validation (IBM HR Analytics Attrition Dataset)
@@ -806,7 +806,7 @@ print(f"Saved: {fig10_path}")
 summary_payload = {
     "project": "Employee Attrition Prediction & Visualization",
     "course_code": "U21ADP05",
-    "student": "Suja S (24AD120)",
+    "student": "Raveena S (24AD087)",
     "institution": "KPR Institute of Engineering and Technology",
     "dataset": {
         "source": "IBM HR Analytics Attrition Dataset",
